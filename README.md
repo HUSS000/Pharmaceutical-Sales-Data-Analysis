@@ -4,6 +4,7 @@ An interactive Pharmaceutical Sales Dashboard built in Power BI using Excel as r
 This project was an incredible journey, and I’m proud to say it was recognized for its strong analytical insights and visualization quality!
 
 📌 The challenge:
+
  👉 Analyze the pharmaceutical sales performance across multiple clusters, representatives, and product categories to uncover:
  Did the sales teams meet their targets, and which areas drove (or limited) performance? etc. 
 
