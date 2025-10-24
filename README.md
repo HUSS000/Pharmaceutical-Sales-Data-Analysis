@@ -10,6 +10,7 @@ This project was an incredible journey, and I’m proud to say it was recognized
 🧾 Using Excel as the raw data source and Power BI for the complete ETL process, I built a structured data model using a Galaxy Schema to connect FactTables (sales & targets) with DimTables (representatives, clusters, and products) 1:* relationship. The result was a fully interactive dashboard that tells the complete sales story — from performance tracking to root cause analysis (RCA).
 
 📊 Top Insights:
+
 1️⃣ Achievement Highlight: The sales target was achieved only once, at 121.16% of the target (+604K), showing strong recovery compared to previous periods.
 
 2️⃣ Growth Trend: Sales showed a 29.6% YoY increase, indicating continuous progress and improved efficiency across product lines.
