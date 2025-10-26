@@ -7,6 +7,14 @@ It tracks **sales vs. targets**, evaluates **representative & product performanc
 
 ---
 
+## 🎬 Dashboard in Action (GIF Preview)
+
+<p align="center">
+  <img src="https://github.com/HUSS000/Pharmaceutical-Sales-Data-Analysis/blob/main/GIFProjectDemo.gif?raw=true" alt="Dashboard Preview"/>
+</p>
+
+---
+
 ## 🎯 Project Overview  
 
 | **Aspect** | **Description** |
@@ -21,7 +29,7 @@ It tracks **sales vs. targets**, evaluates **representative & product performanc
 
 ## 🧠 The Challenge  
 
-Analyze the sales performance across clusters and representatives to uncover insights such as:  
+Analyze the sales performance across clusters and representatives , etc. to uncover insights such as:  
 - Achievement vs. Target  
 - Regional and product-based performance variations  
 - Top and underperforming accounts or clusters  
@@ -39,7 +47,8 @@ Built using **Power BI’s ETL layer**, transforming raw Excel data into a struc
 | Dimension Tables | Representatives, Clusters, Products | One-to-Many (1:*) |
 | Model Result | Integrated star-like Galaxy Schema enabling cross-analysis |
 
-📈 **Data Model Preview:**  
+📈 **Data Model Preview:** 
+
 <img width="1448" height="833" alt="Data Model" src="https://github.com/user-attachments/assets/98395cf1-0bc2-40e2-a4e8-e2b9d8f0a9a5" />
 
 ---
@@ -59,7 +68,7 @@ Built using **Power BI’s ETL layer**, transforming raw Excel data into a struc
 
 ---
 
-## 📊 Key Insights  
+## 📊 Key Insights & **Insight Snapshot:** 
 
 | **Insight** | **Details** |
 |--------------|-------------|
@@ -68,18 +77,6 @@ Built using **Power BI’s ETL layer**, transforming raw Excel data into a struc
 | **3️⃣ Product Leader** | **Glucophage Family** = 54.29% of total revenue, while **Glucovance** = lowest (5.86%). |
 | **4️⃣ Price Dynamics** | **Concor** has the highest selling price/unit; Glucophage leads in total sales volume. |
 | **5️⃣ Cluster & Account Insight** | **Shared cluster** = top sales; **Kuwait Oil Co.** = best performing account. |
-| **6️⃣ Rep Performance** | Most reps hit their targets, showing improved distribution & performance. |
+| **6️⃣ Rep Performance** | Most reps hit their targets, showing improved distribution & performance. | 
 
----
-
-📊 **Insight Snapshot:**  
 <img width="1102" height="622" alt="Insights" src="https://github.com/user-attachments/assets/899c2e7d-1f89-41db-9c23-3672c5e84248" />
-
----
-
-## 🎬 Dashboard in Action (GIF Preview)
-
-You can include a short GIF of your Power BI dashboard (to show interactivity) by placing the file inside your repository, for example:  
-
-```markdown
-![Dashboard Demo](assets/GIFProjectDemo.gif)
