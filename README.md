@@ -1,71 +1,85 @@
-# Pharmaceutical Sales Analysis
-An interactive Pharmaceutical Sales Dashboard built in Power BI using Excel as raw data and a Galaxy Schema model for ETL. It tracks sales vs. targets, rep and product performance, and highlights insights through KPIs and RCA for smarter business decisions.
+# 💊 Pharmaceutical Sales Analysis  
 
-This project was an incredible journey, and I’m proud to say it was recognized for its strong analytical insights and visualization quality!
+An interactive **Pharmaceutical Sales Dashboard** built in **Power BI**, using **Excel** as the raw data source and a **Galaxy Schema** model for ETL.  
+It tracks **sales vs. targets**, evaluates **representative & product performance**, and highlights **data-driven insights** using KPIs and RCA (Root Cause Analysis).  
 
-________________________________________________________________________________________________________________________________________________________________________________________________
+> 🏆 *This project was recognized for its strong analytical insights and visualization quality.*
 
-📌 The challenge:
+---
 
- 👉 Analyze the pharmaceutical sales performance across multiple clusters, representatives, and product categories to uncover:
- Did the sales teams meet their targets, and which areas drove (or limited) performance? etc. 
+## 🎯 Project Overview  
 
+| **Aspect** | **Description** |
+|-------------|-----------------|
+| **Goal** | Analyze pharmaceutical sales performance across multiple clusters, representatives, and product categories. |
+| **Key Questions** | Did sales teams meet their targets? Which areas drove or limited performance? What products and reps performed best? |
+| **Tools Used** | Excel (Raw Data), Power BI (ETL + Modeling + Visualization) |
+| **Data Model Type** | Galaxy Schema (Fact + Dimension Tables) |
+| **Output** | Fully interactive Power BI dashboard with visual storytelling and RCA insights |
 
+---
 
-________________________________________________________________________________________________________________________________________________________________________________________________
+## 🧠 The Challenge  
 
-📈 Data Modeling:
+Analyze the sales performance across clusters and representatives to uncover insights such as:  
+- Achievement vs. Target  
+- Regional and product-based performance variations  
+- Top and underperforming accounts or clusters  
+- Trends and RCA for decision-making  
 
-Using Excel as the raw data source and Power BI for the complete ETL process, I built a structured data model using a Galaxy Schema to connect FactTables (sales & targets) with DimTables (representatives, clusters, and products) 1:* relationship. The result was a fully interactive dashboard that tells the complete sales story — from performance tracking to root cause analysis (RCA).
+---
 
-<img width="1448" height="833" alt="image" src="https://github.com/user-attachments/assets/98395cf1-0bc2-40e2-a4e8-e2b9d8f0a9a5" />
+## 🧩 Data Modeling  
 
-________________________________________________________________________________________________________________________________________________________________________________________________
+Built using **Power BI’s ETL layer**, transforming raw Excel data into a structured **Galaxy Schema**:  
 
-🧾 Dashboard Pages:
+| **Table Type** | **Content** | **Relationships** |
+|-----------------|-------------|-------------------|
+| Fact Tables | Sales, Targets | Connected to Dim Tables |
+| Dimension Tables | Representatives, Clusters, Products | One-to-Many (1:*) |
+| Model Result | Integrated star-like Galaxy Schema enabling cross-analysis |
 
-<img width="1101" height="623" alt="image" src="https://github.com/user-attachments/assets/f1ceb0dc-7b86-44f7-aaf5-ff357cd07d0a" />
+📈 **Data Model Preview:**  
+<img width="1448" height="833" alt="Data Model" src="https://github.com/user-attachments/assets/98395cf1-0bc2-40e2-a4e8-e2b9d8f0a9a5" />
 
-<img width="1101" height="618" alt="image" src="https://github.com/user-attachments/assets/ffe378cf-6253-47d3-8846-2d622f3663b0" />
+---
 
-<img width="1101" height="619" alt="image" src="https://github.com/user-attachments/assets/5dc68912-7e17-4abb-8eab-6c67f6c6aea2" />
+## 🧾 Dashboard Pages  
 
-<img width="1100" height="619" alt="image" src="https://github.com/user-attachments/assets/ff617dbc-7e0f-4368-864b-27aa379cc26d" />
+| **Preview** |
+|--------------|
+| <img width="1101" height="623" alt="Overview" src="https://github.com/user-attachments/assets/f1ceb0dc-7b86-44f7-aaf5-ff357cd07d0a" /> |
+| <img width="1101" height="618" alt="Product" src="https://github.com/user-attachments/assets/ffe378cf-6253-47d3-8846-2d622f3663b0" /> |
+| <img width="1101" height="619" alt="Reps" src="https://github.com/user-attachments/assets/5dc68912-7e17-4abb-8eab-6c67f6c6aea2" /> |
+| <img width="1100" height="619" alt="Cluster" src="https://github.com/user-attachments/assets/ff617dbc-7e0f-4368-864b-27aa379cc26d" /> |
+| <img width="1098" height="620" alt="Accounts" src="https://github.com/user-attachments/assets/3c90f7f7-5f39-4738-8ec6-e75a38e86322" /> |
+| <img width="1537" height="863" alt="RCA" src="https://github.com/user-attachments/assets/844e8bbd-92da-47bc-ae00-6c490005f3c3" /> |
+| <img width="1534" height="863" alt="Comparison" src="https://github.com/user-attachments/assets/680d97a6-a98a-4a38-973c-d274b04e2046" /> |
+| <img width="1102" height="620" alt="Summary" src="https://github.com/user-attachments/assets/310ffbea-ae3f-4453-a17b-f26a6e0bc385" /> |
 
-<img width="1102" height="619" alt="image" src="https://github.com/user-attachments/assets/7d04192e-393d-42c5-aa16-8677c2ddd4a4" />
+---
 
-<img width="1103" height="620" alt="image" src="https://github.com/user-attachments/assets/c764ca51-2136-400d-881b-9966aebaeb38" />
+## 📊 Key Insights  
 
-<img width="1098" height="620" alt="image" src="https://github.com/user-attachments/assets/3c90f7f7-5f39-4738-8ec6-e75a38e86322" />
+| **Insight** | **Details** |
+|--------------|-------------|
+| **1️⃣ Achievement Highlight** | Sales target achieved once — **121.16% of target (+604K)** showing strong recovery. |
+| **2️⃣ Growth Trend** | **+29.6% YoY increase**, reflecting continuous progress across product lines. |
+| **3️⃣ Product Leader** | **Glucophage Family** = 54.29% of total revenue, while **Glucovance** = lowest (5.86%). |
+| **4️⃣ Price Dynamics** | **Concor** has the highest selling price/unit; Glucophage leads in total sales volume. |
+| **5️⃣ Cluster & Account Insight** | **Shared cluster** = top sales; **Kuwait Oil Co.** = best performing account. |
+| **6️⃣ Rep Performance** | Most reps hit their targets, showing improved distribution & performance. |
 
-<img width="1100" height="619" alt="image" src="https://github.com/user-attachments/assets/437e62d9-b9b6-4c10-b46f-1750d90205d1" />
+---
 
-<img width="1103" height="619" alt="image" src="https://github.com/user-attachments/assets/6c722411-914e-407a-a3ed-f6e458e9ed52" />
+📊 **Insight Snapshot:**  
+<img width="1102" height="622" alt="Insights" src="https://github.com/user-attachments/assets/899c2e7d-1f89-41db-9c23-3672c5e84248" />
 
-<img width="1102" height="620" alt="image" src="https://github.com/user-attachments/assets/310ffbea-ae3f-4453-a17b-f26a6e0bc385" />
+---
 
-________________________________________________________________________________________________________________________________________________________________________________________________
+## 🎬 Dashboard in Action (GIF Preview)
 
-📊 Top Insights:
+You can include a short GIF of your Power BI dashboard (to show interactivity) by placing the file inside your repository, for example:  
 
-1️⃣ Achievement Highlight: The sales target was achieved only once, at 121.16% of the target (+604K), showing strong recovery compared to previous periods.
-
-2️⃣ Growth Trend: Sales showed a 29.6% YoY increase, indicating continuous progress and improved efficiency across product lines.
-
-3️⃣ Top Performer: The Glucophage family dominated sales with 54.29% of total revenue, while Glucovance had the lowest share (5.86%) — a key opportunity for improvement.
-
-4️⃣ Price Dynamics: Concor maintained the highest selling price per unit, reflecting its strong market positioning while Glucophage Family scores the highest overall sales.
-
-5️⃣ Cluster & Accounts Insight: The Shared cluster recorded the highest total sales, while Kuwait Oil Co. emerged as the top-performing account in the Semi cluster.
-
-6️⃣ Rep Performance: Most sales representatives achieved their targets, showing clear progress in sales distribution and team performance.
-
-<img width="1102" height="622" alt="image" src="https://github.com/user-attachments/assets/899c2e7d-1f89-41db-9c23-3672c5e84248" />
-
-
-
-
-
-
-
-
+```markdown
+![Dashboard Demo](assets/GIFProjectDemo.gif)
