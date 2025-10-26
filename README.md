@@ -13,6 +13,14 @@ It tracks **sales vs. targets**, evaluates **representative & product performanc
   <img src="https://github.com/HUSS000/Pharmaceutical-Sales-Data-Analysis/blob/main/GIFProjectDemo.gif?raw=true" alt="Dashboard Preview"/>
 </p>
 
+<p align="center">
+  <a href="https://powerbi.microsoft.com/" target="_blank">
+    <img src="https://img.icons8.com/color/96/000000/power-bi.png" width="60" alt="Power BI"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank">
+    <img src="https://img.icons8.com/color/96/000000/microsoft-excel-2019--v1.png" width="60" alt="Excel"/>
+
 ---
 
 ## 🎯 Project Overview  
@@ -46,8 +54,6 @@ Built using **Power BI’s ETL layer**, transforming raw Excel data into a struc
 | Fact Tables | Sales, Targets | Connected to Dim Tables |
 | Dimension Tables | Representatives, Clusters, Products | One-to-Many (1:*) |
 | Model Result | Integrated star-like Galaxy Schema enabling cross-analysis |
-
-📈 **Data Model Preview:** 
 
 <img width="1448" height="833" alt="Data Model" src="https://github.com/user-attachments/assets/98395cf1-0bc2-40e2-a4e8-e2b9d8f0a9a5" />
 
